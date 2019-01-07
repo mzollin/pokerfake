@@ -17,7 +17,7 @@ It's currently just a proof of concept, so **don't rely on it.**
 - sudo modprobe v4l2loopback devices=1
 
 This will set up a virtual /dev/video device to which you can write the faked video stream using pokerface.py<br>
-Example: &nbsp; [videochat-app]----/dev/video1--->[pokerface.py]----/dev/video0---->[your webcam]
+Example: &nbsp; [videochat-app]<----/dev/video1---[pokerface.py]<----/dev/video0----[your webcam]
 
 ## Python dependencies:
 - opencv_python
