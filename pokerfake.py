@@ -9,8 +9,8 @@ import datetime
 import cv2
 import numpy as np
 
-path = '../calm_hd.mp4'
-#path = 0    # webcam
+#path = '../calm_hd.mp4'    # test file
+path = 0    # webcam
 
 capture = cv2.VideoCapture(path)
 width = int(capture.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -20,7 +20,7 @@ if fps < 1:
     fps = 30
 
 # sudo modprobe v4l2loopback devices=1
-cam = pyfakewebcam.FakeWebcam('/dev/video0', width, height)
+cam = pyfakewebcam.FakeWebcam('/dev/video1', width, height)
 fill = np.zeros((height, width, 3), np.uint8)
 
 while True:
