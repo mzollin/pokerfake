@@ -5,7 +5,11 @@
   <a href="https://pyup.io/repos/github/mzollin/pokerface"><img alt="Updates" src="https://pyup.io/repos/github/mzollin/pokerfake/shield.svg"></a>
   <a href="https://pyup.io/repos/github/mzollin/pokerface"><img alt="Python3" src="https://pyup.io/repos/github/mzollin/pokerfake/python-3-shield.svg"></a><br><br>
 <p>
-  
+
+Inspiration: https://github.com/thearn/webcam-pulse-detector
+
+Pokerfake works by varying the image brightness to simulate a pulse, therefore covering up your real heart rate. It's currently just a proof of concept, so **don't rely on it.**
+
 ## Setup and usage:
 - sudo apt install v4l2loopback-utils python-opencv
 - pip3 install -r requirements.txt
