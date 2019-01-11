@@ -8,8 +8,7 @@
 
 Inspiration: https://github.com/thearn/webcam-pulse-detector
 
-Pokerfake works by varying the image brightness to simulate a pulse, therefore covering up your real heart rate.<br>
-It's currently just a proof of concept, so **don't rely on it.**
+Pokerfake works by very slightly varying the image brightness to simulate a pulse, therefore covering up your real heart rate. It's currently just a proof of concept, so **don't rely on it.**
 
 ## Setup and usage:
 - sudo apt install v4l2loopback-utils python-opencv
