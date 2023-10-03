@@ -1,3 +1,3 @@
 numpy==1.25.1
-opencv_python==4.8.0.74
+opencv_python==4.8.0.76
 pyfakewebcam==0.1.0
